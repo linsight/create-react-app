@@ -6,8 +6,6 @@ Customised react-scripts to support mutiple entry points.
 
 1. Update your CRA to use this version of react-scripts
 
-  `create-react-app your-app --scripts-version @linsight/react-scripts`
-
 2. Create a `.env` to your project root if you don't have one. Add to the `.env` file your entry points. Example:
 
 	```
