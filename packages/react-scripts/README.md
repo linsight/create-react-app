@@ -4,7 +4,16 @@ Customised react-scripts to support mutiple entry points.
 
 ## Usage
 
-1. Update your CRA to use this version of react-scripts
+1. Update your `package.json` file to replace dependency `react-scripts` into:
+
+	```
+	"dependencies": {
+	    "@linsight/react-scripts": "~3.4.3",
+	    ...
+    }
+	
+	```
+	
 
 2. Create a `.env` to your project root if you don't have one. Add to the `.env` file your entry points. Example:
 
